@@ -1,6 +1,6 @@
 <?php 
 /*
-  Plugin Name: O2 Video Widget v1
+  Plugin Name: O2 Video Widget v1.1
   Description: Shows the latest O2 videos on your website, automatically updated and kept fresh.
   Author: O2 - Official Plugin
   Version: 0.1
