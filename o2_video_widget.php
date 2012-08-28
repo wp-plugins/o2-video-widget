@@ -38,7 +38,7 @@
 						else echo '<li>';
 						echo '<a href="'.preg_replace('/&feature.*/','',$item->link['href']).'">';
 						echo '<span class="clip"><span class="overlay"></span><img src="'.preg_replace('/.*watch\?v=(.*)&.*/','http://i.ytimg.com/vi/$1/default.jpg',$item->link['href']).'" alt="" /></span></a>';
-						echo '<p><a href="'.preg_replace('/(.*)&.*/','$1',$item->link).'">'.$item->title.'</a></p>';
+						echo '<p><a href="'.preg_replace('/(.*)&.*/','$1',$item->link['href']).'">'.$item->title.'</a></p>';
 						echo '</li>';
 						$i++;
 					}
